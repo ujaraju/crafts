@@ -1,0 +1,238 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #eee;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+body > footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 1.5em 0;
+    background-color: #f9f9f9;
+    z-index: 1;
+    margin-top: 2em;
+}
+
+
+
+.container{ position: relative; }
+.alert-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+h1,h2{font-family: 'Raleway', sans-serif; font-weight: 300;}
+h1{margin: 1em 0 0.5em;}
+h2{ font-weight: 500}
+hr{ border-color: rgba(0,0,0,0.05)}
+
+
+.m-y-lg {
+    margin-top: 7em;
+    margin-bottom: 7em;
+    position: relative;
+}
+
+
+.m-y-md {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.m-a-0{ margin: 0;}
+
+
+
+/*forms */
+.btn,
+.form-control{ border-radius: 0;}
+
+.form-account {
+    max-width: 330px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-account .form-control {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: -1px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*list */
+.list-inline.text-right{ margin-right: -5px; }
+.list-inline li{ margin: 0 5px;}
+
+
+/*ADMIN product/category list */
+.list-group-item-heading {
+    display: block;
+    padding: 10px 15px 10px 35px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.list-group-item-heading:before {
+    font-family: "Glyphicons Halflings";
+    content: "\2212";
+    padding-right: 5px;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.list-group-item-heading.collapsed:before {
+    content: "\2b";
+}
+/*ADMIN product/category list */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+    margin:-4px;    /* Set this to minus the border thickness. */
+    background-color:#fff;
+    cursor:move;
+}
+/* cloud zoom wrapper styles */
+.cloud-zoom-wrap {
+    top:0;
+    z-index:9999;
+    position:relative;
+}
+/* This is the zoom window. */
+.cloud-zoom-big {
+    overflow:hidden;
+}
+/* This is the loading message. */
+.cloud-zoom-loading {
+    color:white;
+    background:#222;
+    padding:3px;
+    border:1px solid #000;
+}
+
+
+
+.topnav{ padding: 0.3em 0;}
+.branding{ padding: 1em 0}
+.navbar { border-radius: 0; border: none; position: relative; z-index: 2;}
+.navbar-collapse{ border:none!important }
+.navbar-default{ background: #fff;}
+
+.navbar-brand{ font-family: 'Qwigley', cursive; font-size: 4em;}
+h2 .navbar-brand{ font-size: 2em; float: none;} 
+
+.navbar-user a{ color: #333}
+.shadow {
+    background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0) 75%) repeat scroll 0 0;
+    padding: 1em;
+    margin-top: -2.8em;
+    z-index: 1;
+    position: relative;
+}
+
+
+.product .price{ font-weight: bold;}
+.product figure a{ color: #666;}
+.product .action a{ text-transform: uppercase; font-size: 0.85em;}
+
+.add-to-cart .input-group-addon{ border:0; border-radius: 0; background: #fff; font-weight: bold; width: auto;}
+
+.navbar-form .form-control,
+.navbar-form .btn{ background: transparent; border:none; box-shadow: none; }
+.navbar-form .btn{ color: #ccc;}
+.navbar-form .input-group{ border-bottom: 1px solid rgba(190,190,190,0.25);}
+
+
+
+
+.bx-wrapper{ z-index: 1; position: relative; margin-top: -20px;}
+.bx-wrapper .bx-pager{
+    position: absolute;
+    bottom: 7em;
+    width: 100%;
+    z-index: 999;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #333;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+
+
+
+
+figure figcaption{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 0.9em;  
+padding:1.5em 1em;text-transform: uppercase;  }
+figure { box-shadow: 0 0 15px rgba(0,0,0,0.1)}
+figure figcaption{ background: #fff;margin-bottom: 0.5em;}
+
+/*media queries */
+
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-right{ margin-right: -30px;}
+  .nav{ border-top:1px dotted #ccc;}
+  .container.buckets{ margin-top: -5em; position: relative; z-index: 2;  padding-bottom: 5em;}
+}
+
+
+@media (max-width: 767px) {
+    .topnav { border-bottom: 1px dotted #ccc;}
+    .navbar-collapse  > .col-sm-3.col-md-3 { padding: 0!important}
+    .container > .m-y-md{ margin-top: 1em;}
+    .navbar-toggle{ border:0;}
+    .navbar-form{ border: 0!important; margin: 0!important; padding-left: 0; padding-right: 0; }
+}
