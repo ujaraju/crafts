@@ -1,7 +1,7 @@
 <?php
   session_start();
   ob_start();
-  $sitePath = $_SERVER['DOCUMENT_ROOT']."crafts";
+  $sitePath = $_SERVER['DOCUMENT_ROOT']."";
 ?>
 
 <?php include_once($sitePath."/inc/_header.php"); ?>
